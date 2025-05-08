@@ -14,6 +14,10 @@ const options = {
     },
     servers: [
       {
+        url: "https://meetx-exrq.onrender.com",
+        description: "Production server (Render)",
+      },
+      {
         url: "http://localhost:3000",
         description: "Development server",
       },
@@ -33,7 +37,7 @@ const options = {
       },
     ],
   },
-  apis: ["./src/routes/*.js"], 
+  apis: ["./src/routes/*.js"],
 };
 
 const specs = swaggerJsdoc(options);
