@@ -88,6 +88,9 @@ npm run dev
 Swagger API documentation is available at:
 [API Documentation - MeetX](https://meetx-exrq.onrender.com/api-docs/)
 
+⚠️ Note: Deployed on Render (Free Version)
+The API is deployed on Render's free tier, so it may take 50-60 seconds for the first request to load due to cold start.
+
 If you are testing locally, you can access Swagger UI at `/api-docs` on your local server.
 
 ## Database Options
